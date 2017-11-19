@@ -1,2 +1,1 @@
-const logger = require('./logger')
-logger.info('Usando CommonsJS!')
+import Pessoa from './pessoa'

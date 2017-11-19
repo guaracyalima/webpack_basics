@@ -12,6 +12,3 @@ export default class Pessoa {
   }
 
 }
-
-const pessoa = new Pessoa('Julia Gabriela')
-console.log(pessoa.toString())

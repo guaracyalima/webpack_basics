@@ -1,18 +1,7 @@
-const produto = {
-  nome: 'Caneta bic preta',
-  preco: 1.90,
-  desconto: 0.05
-}
+import 'react'
 
+export default props => (
+  <h1>Ola mundo</h1>
+)
 
-function clone(objeto){
-  //operador spread serve pra clonar objetos
-  //sua instanciacao e com os 3 pontos (...)
-  return { ...objeto}
-}
-
-const novoProduto = clone(produto)
-
-novoProduto.nome = 'Produto clonado'
-
-console.log('shwoing new product ', novoProduto)
+console.log('Funfando de bobs');

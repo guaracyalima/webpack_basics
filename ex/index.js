@@ -13,6 +13,6 @@ function clone(objeto){
 
 const novoProduto = clone(produto)
 
-novoProduto.nome = 'Buceta loirinha e cheirosa'
+novoProduto.nome = 'Produto clonado'
 
 console.log('shwoing new product ', novoProduto)
